@@ -20,21 +20,35 @@
 <body>
 <header>
 
+<nav class="black">
+	<div class="container">
+		<div class="nav-wrapper">
+			<div class="row">
+				<!-- Modal Triggers -->
+				<a class="red waves-effect waves-light btn modal-trigger col s2 m2 offset-s1 offset-l1" href="#modal1">Wed</a>
+				<a class="blue waves-effect waves-light btn modal-trigger col s2 m2" href="#modal2">Thu</a>
+				<a class="yellow waves-effect waves-light btn modal-trigger col s2 m2" href="#modal3">Fri</a>
+				<a class="green waves-effect waves-light btn modal-trigger col s2 m2" href="#modal4">Sat</a>
+				<a class="red waves-effect waves-light btn modal-trigger col s2 m2" href="#modal5">Sun</a>
+			</div>
+		</div>
+	</div>
+</nav>
+
+
 <div class="container">
-	<!-- <div class="card-panel hoverable"> -->
-		<h1 class="center">Oh, Twodoles!<img class="mickeyIcon" src="assets/images/gce5A5z9i.jpg"</h1>
+	<div class="card-panel hoverable">
+		<img id="mickeyClub" src="assets/images/mmclubhouse.jpg">
+		<h1 class="center">Oh, Two-dles!</h1>
+		<!-- <h1 class="center">Two-dles!</h1> -->
 		<h5 class="center">Oliver Turns 2!</h5>
 		<h5 class="center">July 13th - July 18th</h5>
-	<!-- </div> -->
+	</div>
 </div>
 
 <div class="row">
 	<div class="container">
 
-	<div id="wednesday">
-		<!-- Modal Trigger -->
-  		<a class="blue waves-effect waves-light btn modal-trigger col s2 m2 offset-s1 offset-m1" href="#modal1">Wednesday</a>
-	</div>
 	<!-- Modal Structure -->
 	<div id="modal1" class="modal">
 		<div class="modal-content">
@@ -49,10 +63,6 @@
 		</div>
 	</div>
 
-	<div id="thursday">
-		<!-- Modal Trigger -->
-  		<a class="green waves-effect waves-light btn modal-trigger col s2 m2" href="#modal2">Thursday</a>
-	</div>
 	<!-- Modal Structure -->
 	<div id="modal2" class="modal">
 		<div class="modal-content">
@@ -68,10 +78,6 @@
 		</div>
 	</div>
 
-	<div id="friday">
-		<!-- Modal Trigger -->
-  		<a class="yellow waves-effect waves-light btn modal-trigger col s2 m2" href="#modal3">Friday</a>
-	</div>
 	<!-- Modal Structure -->
 	<div id="modal3" class="modal">
 		<div class="modal-content">
@@ -83,10 +89,6 @@
 		</div>
 	</div>
 
-	<div id="saturday">
-		<!-- Modal Trigger -->
-  		<a class="blue waves-effect waves-light btn modal-trigger col s2 m2" href="#modal4">Saturday</a>
-	</div>
 	<!-- Modal Structure -->
 	<div id="modal4" class="modal">
 		<div class="modal-content">
@@ -101,10 +103,6 @@
 		</div>
 	</div>
 
-	<div id="sunday">
-		<!-- Modal Trigger -->
-  		<a class="green waves-effect waves-light btn modal-trigger col s2 m2" href="#modal5">Sunday</a>
-	</div>
 	<!-- Modal Structure -->
 	<div id="modal5" class="modal">
 		<div class="modal-content">
@@ -118,18 +116,6 @@
 <!-- closing div for buttom row -->
 </div>
 
-<div class="container">
-	<div class="row">
-		<div class="rsvp col s4 m4">
-			<p class="center">Please respond by email to: "liz.cortes@live.com" by june 10th.</p>
-			<p class="center">We need to know exactly who will be attending the Chef Mickey's Breakfast.</p>
-		</div>
-		<div class="wishList col s4 m4">
-			<p class="center">Click on Oliver!</p>
-			<a href="http://www.toysrus.com/wishlist/search/index.jsp?_flowExecutionKey=_c71B8A2EE-8107-69C6-0FED-4F1D061E8B1F_kC91D5E8B-3903-DA7E-7963-4F1716F45D70&overrideStore=TRUS" target="_blank"><img id="oliverHeads" src="assets/images/IMG_0023.jpg" alt="oliverHeadphones" style="width:110px; height:130px;"></a>
-		</div>
-	</div>
-</div>
 
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -148,5 +134,23 @@
       
 
  </script>
+
+<footer class="page-footer black">
+	<div class="container">
+		<div class="row">
+			<div class="col l6 s12">
+				<h5 class="red-text">RSVP</h5>
+				<p class="red-text text-lighten-4">Please text: (305) 607-4596 by June 12th</p>
+			</div>
+			<div class="col l4 offset-l2 s12">
+				<h5 class="red-text">Wishlist</h5>
+				<ul>
+				<li><a href="http://www.toysrus.com/wishlist/search/index.jsp?_flowExecutionKey=_c71B8A2EE-8107-69C6-0FED-4F1D061E8B1F_kC91D5E8B-3903-DA7E-7963-4F1716F45D70&overrideStore=TRUS" target="_blank"><img id="toysIcon" src="assets/images/com_toysrus_android.png"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
 </body>
 </html>

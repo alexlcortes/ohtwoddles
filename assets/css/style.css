@@ -1,12 +1,12 @@
 body {
-    background-image: url("../images/rat-hd-wallpapers-7.jpeg");
+    /*background-image: url("../images/rat-hd-wallpapers-7.jpeg");
     background-repeat: no-repeat;
-    background-size: 90%;
-
+    background-size: 90%;*/
 }
 
 h1 {
 	color: red;
+	font-size: 40px;
 }
 
 h5 {
@@ -18,12 +18,22 @@ p {
 }
 
 .mickeyIcon {
-	width: 100px; 
-	height: 100px;
+	width: 75px; 
+	height: 75px;
 }
 
 #oliverHeads {
 	display: block;
     margin-left: auto;
     margin-right: auto
+}
+
+#mickeyClub {
+	content:url("../images/mmclubhouse.jpg");
+	width: 100%;
+}
+
+#toysIcon {
+	width: 55px;
+	height: 55px;
 }
