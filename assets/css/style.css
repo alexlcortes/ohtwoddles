@@ -1,0 +1,29 @@
+body {
+    background-image: url("../images/rat-hd-wallpapers-7.jpeg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+
+}
+
+h1 {
+	color: red;
+}
+
+h5 {
+	color: red;
+}
+
+p {
+	color: red;
+}
+
+.mickeyIcon {
+	width: 100px; 
+	height: 100px;
+}
+
+#oliverHeads {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
