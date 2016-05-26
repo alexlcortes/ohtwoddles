@@ -3,11 +3,13 @@
 h1 {
 	color: red;
 	font-size: 35px;
+	font-weight: 800;
 }
 
-h5 {
+h2 {
 	color: red;
-	font-size: 20px;
+	font-size: 25px;
+	font-weight: 500;
 }
 
 p {
