@@ -38,14 +38,40 @@
 
 
 <div class="container">
-	<div class="card-panel hoverable">
+	<div class="card-panel">
 		<h1 class="center animated infinite tada">Oh, Two-dles! Oliver Turns<img id="mickeyTurns" src="assets/images/mickeyTurns2.jpg"></h1>
-		<!-- <h2 class="center">Oliver Turns<img id="mickeyTurns" src="assets/images/mickeyTurns2.jpg"></h2> -->
-		<img id="mickeyClub" src="assets/images/mmclubhouse.jpg">
+			<div class="slider">
+				<ul class="slides">
+					<li>
+						<img src="assets/images/baseballshirt.JPG">
+					</li>
+					<li>
+						<img class="ollie-liz" src="assets/images/ollieandliz.JPG">
+					</li>
+					<li>
+						<img src="assets/images/olliehoodie.jpg">
+					</li>
+					<li>
+						<img src="assets/images/olliesc.jpg">
+					</li>
+					<li>
+						<img src="assets/images/yogurtface.JPG">
+					</li>
+					<li>
+						<img class="ollie-tongue" src="assets/images/ollietongue.JPG">
+					</li>
+					<li>
+						<img src="assets/images/ollietractor.JPG">
+					</li>
+					<li>
+						<img src="assets/images/olliesleep.JPG">
+					</li>
+					<li>
+						<img class="ollie-fam" src="assets/images/olliefam.JPG">
+					</li>
+				</ul>
+			</div>
 		<h5 class="center">July 13th - July 17th</h5>
-		
-		<!-- <h1 class="center">Two-dles!</h1> -->
-		
 	</div>
 </div>
 
@@ -131,8 +157,10 @@
 
  <script>
  	$(document).ready(function(){
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    // jquery for the modals	
     $('.modal-trigger').leanModal();
+    // jquery for slider
+    $('.slider').slider({full_width: true});
   });
       
 

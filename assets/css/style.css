@@ -1,5 +1,4 @@
 
-
 h1 {
 	color: red;
 	font-size: 35px;
@@ -27,11 +26,6 @@ p {
     margin-right: auto
 }
 
-#mickeyClub {
-	content:url("../images/mmclubhouse.jpg");
-	width: 100%;
-}
-
 #toysIcon {
 	width: 55px;
 	height: 55px;
@@ -40,4 +34,28 @@ p {
 #mickeyTurns {
 	width: 55px;
 	height: 55px;
+}
+
+.ollie-liz {
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.ollie-tongue {
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.ollie-fam {
+	--webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
