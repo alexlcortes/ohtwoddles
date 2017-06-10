@@ -13,17 +13,20 @@ canvas {
 	color: #e64a19;
 	font-size: 50px;
 	font-family: 'Audiowide', cursive;
-
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
-.event {
-	color: #111a22;
-	font-family: 'Anton', sans-serif;
+.details {
+	color: #e64a19;
+	font-size: 25px;
 }
 .date {
 	color: #1a237e;
 	font-size: 25px;
 	font-family: 'Cuprum', sans-serif;
-	}
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 .text {
 	background-color: white;
 }
