@@ -5,19 +5,25 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #111a22;
+  background: #1a237e;
   z-index: -1;
 }
-.countDown {
-	font-family: 'Mogra', cursive;
-}
+
 .name {
-	font-family: 'Vibur', cursive;
+	color: #e64a19;
+	font-size: 50px;
+	font-family: 'Audiowide', cursive;
+
 }
 .event {
+	color: #111a22;
 	font-family: 'Anton', sans-serif;
 }
 .date {
-	font-family: 'Bubbler One', sans-serif;
-
+	color: #1a237e;
+	font-size: 25px;
+	font-family: 'Cuprum', sans-serif;
+	}
+.text {
+	background-color: white;
 }
